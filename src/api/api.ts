@@ -1,0 +1,1 @@
+import axios from 'axios';const BASE_URL = 'http://192.168.163.156:8080';export const $instance = axios.create({    baseURL: process.env.NODE_ENV === 'development' ? '' : BASE_URL,    withCredentials: true,    timeout: 1000,});

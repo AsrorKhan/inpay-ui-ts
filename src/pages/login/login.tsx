@@ -1,0 +1,1 @@
+import React from 'react';import './login.scss';export const Login: React.FC<{}> = props => {    return (        <>            <h2>LOGIN PAGE</h2>        </>    );};

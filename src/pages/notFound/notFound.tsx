@@ -1,0 +1,1 @@
+import React from 'react';import './notFound.scss';export const NotFound: React.FC<{}> = props => {    return (        <>            <h2>ERROR 404... Page not found!!!</h2>        </>    );};
